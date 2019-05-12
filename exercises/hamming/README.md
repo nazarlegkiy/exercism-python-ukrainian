@@ -1,81 +1,31 @@
-# Hamming
+# Дистанція Хеммінга
 
-Calculate the Hamming Distance between two DNA strands.
+Вирахуйте дистанцію Хеммінга між двома нитками ДНК.
 
-Your body is made up of cells that contain DNA. Those cells regularly
-wear out and need replacing, which they achieve by dividing into
-daughter cells. In fact, the average human body experiences about 10
-quadrillion cell divisions in a lifetime!
+Ваще тіло складається з клітин, що містять ДНК. Ці клітини регулярно старіють і
+потребують заміни, що досягається шляхом їх поділу на дочірні клітини. В
+людському тіли за життя відбувається до 10 квадрильйонів поділів клітин!
 
-When cells divide, their DNA replicates too. Sometimes during this
-process mistakes happen and single pieces of DNA get encoded with the
-incorrect information. If we compare two strands of DNA and count the
-differences between them we can see how many mistakes occurred. This is
-known as the "Hamming Distance".
+Коли клітини діляться, ДНК в них копіюється. Іноді під час цього процесу
+виникають помилки, і деякі частини отримують помилкову інформацію. Якщо
+порівняти дві нитки ДНК і вирахувати різницю між ними, ми отримаємо кількість
+помилок при діленні - так звану дистанцію Хеммінга.
 
-We read DNA using the letters C,A,G and T. Two strands might look like this:
+Ми зображуємо ДНК, використовуючи літери C, A, G та T. Дві нитки ДНК можуть
+виглядати так:
 
     GAGCCTACTAACGGGAT
     CATCGTAATGACGGCCT
     ^ ^ ^  ^ ^    ^^
 
-They have 7 differences, and therefore the Hamming Distance is 7.
+Між ними 7 розрізнень, тому дистанція Хеммінга дорівнює 7.
 
-The Hamming Distance is useful for lots of things in science, not just biology,
-so it's a nice phrase to be familiar with :)
+Дистанція Хеммінга корисна для багатьох речей в науці, і не тільки біології,
+тому це гарний термін, з яким можна бути знайомим :)
 
-# Implementation notes
+# Деталі імплементації
 
-The Hamming distance is only defined for sequences of equal length, so
-an attempt to calculate it between sequences of different lengths should
-not work. The general handling of this situation (e.g., raising an
-exception vs returning a special value) may differ between languages.
-
-## Exception messages
-
-Sometimes it is necessary to raise an exception. When you do this, you should include a meaningful error message to
-indicate what the source of the error is. This makes your code more readable and helps significantly with debugging. Not
-every exercise will require you to raise an exception, but for those that do, the tests will only pass if you include
-a message.
-
-To raise a message with an exception, just write it as an argument to the exception type. For example, instead of
-`raise Exception`, you should write:
-
-```python
-raise Exception("Meaningful message indicating the source of the error")
-```
-
-## Running the tests
-
-To run the tests, run the appropriate command below ([why they are different](https://github.com/pytest-dev/pytest/issues/1629#issue-161422224)):
-
-- Python 2.7: `py.test hamming_test.py`
-- Python 3.4+: `pytest hamming_test.py`
-
-Alternatively, you can tell Python to run the pytest module (allowing the same command to be used regardless of Python version):
-`python -m pytest hamming_test.py`
-
-### Common `pytest` options
-
-- `-v` : enable verbose output
-- `-x` : stop running tests on first failure
-- `--ff` : run failures from previous test before running other test cases
-
-For other options, see `python -m pytest -h`
-
-## Submitting Exercises
-
-Note that, when trying to submit an exercise, make sure the solution is in the `$EXERCISM_WORKSPACE/python/hamming` directory.
-
-You can find your Exercism workspace by running `exercism debug` and looking for the line that starts with `Workspace`.
-
-For more detailed information about running tests, code style and linting,
-please see [Running the Tests](http://exercism.io/tracks/python/tests).
-
-## Source
-
-The Calculating Point Mutations problem at Rosalind [http://rosalind.info/problems/hamm/](http://rosalind.info/problems/hamm/)
-
-## Submitting Incomplete Solutions
-
-It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+Дистанція Хеммінга існує тільки для ниток одної довжини, тому спроба вирахувати
+її для ниток різної довжини не має працювати. План дій в такій ситуації
+(викинути помилку або повернути спеціальне значення) відрізняється між різними
+мовами.
