@@ -2,21 +2,21 @@
 
 ## Ключові
 
-- Hello World
-- Two Fer
-- High Scores
-- Matrix
-- Hamming
-- Raindrops
-- Isogram
-- Twelve Days
-- Word Count
-- Scrabble Score
-- Acronym
-- Kindergarten Garden
-- Grade School
-- Luhn
-- Clock
-- Markdown
-- Tournament
-- Book Store
+- [Hello World](hello-world)
+- [Two Fer](two-fer)
+- [High Scores](high-scores)
+- [Matrix](matrix)
+- [Hamming](hamming)
+- [Raindrops](raindrops)
+- [Isogram](isogram)
+- [Twelve Days](twelve-days)
+- [Word Count](word-count)
+- [Scrabble Score](scrabble-score)
+- [Acronym](acronym)
+- [Kindergarten Garden](kindergarten-garden)
+- [Grade School](grade-school)
+- [Luhn](luhn)
+- [Clock](clock)
+- [Markdown](markdown)
+- [Tournament](tournament)
+- [Book Store](book-store)
