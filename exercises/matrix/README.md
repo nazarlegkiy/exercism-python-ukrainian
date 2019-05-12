@@ -1,9 +1,8 @@
 # Matrix
 
-Given a string representing a matrix of numbers, return the rows and columns of
-that matrix.
+Вам даний строковий вигляд матриці. Поверніть рядки і колонки цієї матриці.
 
-So given a string with embedded newlines like:
+Якщо вам даний такий рядок (зі вставленими новими рядками `"\n"`):
 
 ```text
 9 8 7
@@ -11,7 +10,7 @@ So given a string with embedded newlines like:
 6 6 7
 ```
 
-representing this matrix:
+що є зображенням такої матриці:
 
 ```text
     1  2  3
@@ -21,32 +20,29 @@ representing this matrix:
 3 | 6  6  7
 ```
 
-your code should be able to spit out:
+ваш код має вміти повертати:
 
-- A list of the rows, reading each row left-to-right while moving
-  top-to-bottom across the rows,
-- A list of the columns, reading each column top-to-bottom while moving
-  from left-to-right.
+- Список рядків, зверху вниз
+- Список колонок, зліва направо
 
-The rows for our example matrix:
+Рядки нашої матриці-прикладу:
 
 - 9, 8, 7
 - 5, 3, 2
 - 6, 6, 7
 
-And its columns:
+І її колонки:
 
 - 9, 5, 6
 - 8, 3, 6
 - 7, 2, 7
 
-In this exercise you're going to create a **class**.  _Don't worry, it's not as complicated as you think!_ 
+В цьому завданні ви створите **клас**. _Не хвилюйтеся, це не так важко, як
+здається!_
 
--   [**A First Look at Classes**](https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes) from the Python 3 documentation. 
--   [**How to Define a Class in Python**](https://realpython.com/python3-object-oriented-programming/#how-to-define-a-class-in-python) from the Real Python website.  
--   [**Data Structures in Python**](https://docs.python.org/3/tutorial/datastructures.html) from the Python 3 documentation.
-
-
+- [**A First Look at Classes**](https://docs.python.org/3/tutorial/classes.html#a-first-look-at-classes) from the Python 3 documentation.
+- [**How to Define a Class in Python**](https://realpython.com/python3-object-oriented-programming/#how-to-define-a-class-in-python) from the Real Python website.
+- [**Data Structures in Python**](https://docs.python.org/3/tutorial/datastructures.html) from the Python 3 documentation.
 
 ## Exception messages
 
