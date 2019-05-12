@@ -2,12 +2,12 @@
 
 ## Ключові
 
-- [Hello World](hello-world)
-- [Two Fer](two-fer)
-- [High Scores](high-scores)
-- [Matrix](matrix)
-- [Hamming](hamming)
-- [Raindrops](raindrops)
+- [X] [Hello World](hello-world)
+- [X] [Two Fer](two-fer)
+- [X] [High Scores](high-scores)
+- [X] [Matrix](matrix)
+- [X] [Hamming](hamming)
+- [X] [Raindrops](raindrops)
 - [Isogram](isogram)
 - [Twelve Days](twelve-days)
 - [Word Count](word-count)
